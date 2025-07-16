@@ -27,7 +27,7 @@ pip install opencv-python mediapipe pyautogui numpy
 
 
 
-###2. Run the App
+### 2. Run the App
 
 python main.py
 
@@ -45,7 +45,7 @@ Allow camera permissions if prompted. That’s it!
 
 Stay inside the purple box on screen for best results.
 
-###🧠 How It Works (Simplified)
+### 🧠 How It Works (Simplified)
 MediaPipe tracks 21 landmarks on your hand.
 
 It watches your index finger (tip id 8) to control the mouse.
@@ -54,7 +54,7 @@ If index and middle fingers (tip ids 8 & 12) come close, it triggers a click.
 
 PyAutoGUI translates those hand movements into actual mouse actions on your screen.
 
-###🧰 Tech Stack
+### 🧰 Tech Stack
 Python
 
 OpenCV
@@ -65,10 +65,10 @@ PyAutoGUI
 
 NumPy
 
-###📸 Sneak Peek
+### 📸 Sneak Peek
 Add a screenshot or GIF here to showcase how it works in real time.
 
-###💡 Future Ideas
+### 💡 Future Ideas
 Drag & drop with thumb + index.
 
 Gesture-based scrolling (e.g., swipe up/down).
